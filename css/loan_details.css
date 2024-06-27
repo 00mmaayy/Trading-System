@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    margin: 0 5px;
+    ;
+    padding: 5px;
+    color: white;
+}
+
+.header {
+    height: 5vh;
+    background: linear-gradient(to right, rgb(15, 46, 138), rgb(4, 4, 88));
+}
+
+.container {
+    margin: auto;
+    width: 60vw;
+}
+
+.data {
+    border: 1px dashed black;
+    font-family: monospace;
+}
+
+table {
+    padding: 5px;
+    font-size: 14px;
+    border-bottom: 1px solid black;
+}
+
+table th {
+    border-bottom: 1px solid black;
+}
+
+table td {
+    border-bottom: 1px dashed black;
+    width: 200px;
+    padding: 10px 5px;
+}
+
+table input {
+    padding: 7px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+#month-num {
+    width: 100px;
+}
+
+.data td {
+    text-align: center;
+}
+
+#payment {
+    width: 300px;
+}
+
+.table-header {
+    height: 50px;
+    margin: 5px;
+}
+
+table input[type=submit] {
+    width: 100px;
+    padding: 7px;
+    font-size: 12px;
+}
+
+.flex {
+    display: flex;
+}
+
+.col-1,
+.col-2,
+.col-3 {
+    width: 33.3%;
+}
+
+.details-cont {
+    margin: 30px;
+}
+
+#loan-no {
+    font-size: 30px;
+    font-family: monospace;
+    margin: 15px 0;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px 0;
+    color: rgb(46, 46, 46);
+}
+
+.content {
+    color: rgb(241, 71, 71);
+    font-family: monospace;
+    font-size: 17px;
+    margin: 2px 10px 5px 10px;
+}
+
+.footer {
+    width: 50vh;
+    margin: 30px auto;
+}
+
+.footer div {
+    padding: 5px 0;
+}
+
+.paid,
+.bal {
+    font-size: 14px;
+    font-weight: bold;
+    width: 50%;
+}
+
+.footer-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sum-data {
+    font-weight: normal;
+    font-family: monospace;
+    font-size: 18px;
+}
